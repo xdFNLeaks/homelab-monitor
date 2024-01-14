@@ -1,6 +1,10 @@
 # HomeLab Monitor
 
-HomeLab Monitor is a simple web application built with Flask to monitor and display system statistics of your homelab device. This repository also includes a Docker setup for easy deployment.
+HomeLab Monitor is a simple web application built with Flask to monitor and display system statistics of your homelab device.
+
+This is the most lightweight HomeLab Monitor.
+
+This repository also includes a Docker setup for easy deployment.
 
 ## Features
 
