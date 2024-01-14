@@ -67,3 +67,7 @@ If you prefer using Portainer to manage your Docker containers, follow these ste
 6. Deploy the stack.
 
 7. Access the HomeLab Monitor web interface through Portainer.
+
+# Issues
+
+**Please report any issues you have with the bot in the Issues tab!**
