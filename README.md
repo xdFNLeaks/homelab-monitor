@@ -60,7 +60,20 @@ If you prefer using Portainer to manage your Docker containers, follow these ste
 
 3. Once Portainer is set up, create a new stack.
 
-4. Copy the contents of the `docker-compose.yml` file from the HomeLab Monitor repository.
+4. Copy the contents of the `docker-compose.yml` file displayed below
+
+    ```yaml
+    version: '3'
+
+    services:
+      homelab-monitor:
+        image: ghcr.io/xdfnleaks/homelab-monitor:latest
+        restart: always
+        ports:
+          - "5000:5000"
+        container_name: homelab-monitor
+
+    ```
 
 5. Paste the copied content into the Portainer stack editor.
 
