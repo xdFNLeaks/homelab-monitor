@@ -10,7 +10,7 @@ This repository also includes a Docker setup for easy deployment.
 
 - View CPU usage
 - Monitor memory usage
-- Easy-to-use/Very very simple web interface
+- Easy-to-use/Very very simple web interface (auto refreshes every 32s)
 
 ## Getting Started
 
