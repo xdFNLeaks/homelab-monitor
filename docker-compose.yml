@@ -2,6 +2,8 @@ version: '3'
 
 services:
   homelab-monitor:
-    build: .
+    image: ghcr.io/xdfnleaks/homelab-monitor:latest
+    restart: always
     ports:
       - "5000:5000"
+    container_name: homelab-monitor
