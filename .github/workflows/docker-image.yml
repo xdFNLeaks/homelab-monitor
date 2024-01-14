@@ -36,6 +36,6 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ghcr.io/xdfnleaks/homelab-monitor:latest, ghcr.io/xdfnleaks/homelab-monitor:${{ github.sha }}
+          tags: ghcr.io/xdfnleaks/homelab-monitor:latest
           labels: |
             ${{ steps.meta.outputs.labels }}
