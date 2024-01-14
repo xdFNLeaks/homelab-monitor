@@ -34,3 +34,36 @@ HomeLab Monitor is a simple web application built with Flask to monitor and disp
     Open your web browser and navigate to [http://localhost:5000](http://localhost:5000).
 
 And now your all set!
+
+### Deploying with Portainer
+
+If you prefer using Portainer to manage your Docker containers, follow these steps:
+
+1. Make sure you have Portainer installed. If not, you can deploy it using the following Docker Compose file:
+
+    ```yaml
+    version: '3'
+
+    services:
+      portainer:
+        image: portainer/portainer-ce
+        restart: always
+        ports:
+          - "9000:9000"
+        volumes:
+          - /var/run/docker.sock:/var/run/docker.sock
+    ```
+
+    Run `docker-compose up -d` to start Portainer.
+
+2. Open your web browser and navigate to [http://localhost:9000](http://localhost:9000) to set up Portainer.
+
+3. Once Portainer is set up, create a new stack.
+
+4. Copy the contents of the `docker-compose.yml` file from the HomeLab Monitor repository.
+
+5. Paste the copied content into the Portainer stack editor.
+
+6. Deploy the stack.
+
+7. Access the HomeLab Monitor web interface through Portainer.
