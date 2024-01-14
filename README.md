@@ -6,7 +6,7 @@ HomeLab Monitor is a simple web application built with Flask to monitor and disp
 
 - View CPU usage
 - Monitor memory usage
-- Easy-to-use/Very simple web interface
+- Easy-to-use/Very very simple web interface
 
 ## Getting Started
 
